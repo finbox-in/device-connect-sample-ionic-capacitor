@@ -1,0 +1,7 @@
+{
+  "name": "RiskIonicCapacitorSample",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
