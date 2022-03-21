@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">RiskIonicCapacitorSample</string>
+    <string name="title_activity_main">RiskIonicCapacitorSample</string>
+    <string name="package_name">in.finbox.riskioniccapacitorsample</string>
+    <string name="custom_url_scheme">in.finbox.riskioniccapacitorsample</string>
+</resources>

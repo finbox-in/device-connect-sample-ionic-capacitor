@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import { IonicRiskSdk } from 'ionic-risk-sdk';
+
+const API_KEY = 'I9G9Js79et7ykyLCnFp279XxsJH85Jpu3d5E2Log';
+const CUSTOMER_ID = 'demo_lender_213651';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +11,15 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor() { }
+
+  /**
+   * createUser
+   */
+  async createUser() {
+    const token = await IonicRiskSdk.createUser({ apiKey: API_KEY, customerId: CUSTOMER_ID });
+    console.log('Access Token', token);
+    IonicRiskSdk.startPeriodicSync();
+  }
 
 }

@@ -1,7 +1,7 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
+  appId: 'in.finbox.riskioniccapacitorsample',
   appName: 'RiskIonicCapacitorSample',
   webDir: 'www',
   bundledWebRuntime: false
