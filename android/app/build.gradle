@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+    namespace "in.finbox.riskioniccapacitorsample"
     compileSdkVersion rootProject.ext.compileSdkVersion
     defaultConfig {
         applicationId "in.finbox.riskioniccapacitorsample"
