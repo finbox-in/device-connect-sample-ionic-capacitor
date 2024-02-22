@@ -23,4 +23,4 @@ Set the `API_KEY` with the shared value inside `home.page.ts`
 
 ## Integration
 
-For more details on integration, refer to <https://docs.finbox.in/device-connect/ionic-react.html>
+For more details on integration, refer to <https://docs.finbox.in/device-connect/ionic-capacitor.html>
