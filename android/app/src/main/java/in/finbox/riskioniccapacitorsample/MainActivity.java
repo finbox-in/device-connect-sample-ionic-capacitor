@@ -10,8 +10,8 @@ public class MainActivity extends BridgeActivity {
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
     // Register the Risk Plugin
     registerPlugin(IonicRiskSdkPlugin.class);
+    super.onCreate(savedInstanceState);
   }
 }

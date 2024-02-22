@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicRiskSdk } from 'ionic-risk-sdk';
 
-const API_KEY = 'I9G9Js79et7ykyLCnFp279XxsJH85Jpu3d5E2Log';
+const API_KEY = 'API_KEY';
 const CUSTOMER_ID = 'demo_lender_213653';
 
 @Component({
