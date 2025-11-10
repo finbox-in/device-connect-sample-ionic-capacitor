@@ -1,6 +1,10 @@
 # DeviceConnect: Ionic Sample
+This is sample implementation of the **DeviceConnect Ionic Capacitor SDK**
 
-This is sample implementation of the DeviceConnect Ionic Angular SDK
+## DeviceConnect SDK
+FinBox DeviceConnect is an SDK that seamlessly integrates into lenders' frontend apps/websites, facilitating secure data sharing and providing valuable predictive insights to support informed decision-making.
+
+Ionic SDK is available on [NPM](https://www.npmjs.com/package/ionic-risk-sdk)
 
 ## Setup
 
